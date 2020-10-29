@@ -85,6 +85,7 @@ nav ul a:hover {
   width: 50%;
   min-width: 300px;
   max-width: 650px;
+  line-height: 20px;
 }
 
 @media(hover: none) {
@@ -100,6 +101,30 @@ main {
 
 .banner .fas {
   color: white;
+}
+
+.banner h2, .banner p, .banner .fas {
+  padding: 16px 0;
+}
+
+main h3, main li {
+  line-height: 25px;
+}
+
+main ul {
+  margin-bottom: 30px;
+}
+
+main h3:last-of-type {
+  margin-top: 30px;
+}
+
+main p:last-child {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 .overlay {
@@ -187,5 +212,13 @@ main {
   main>div>section {
     margin: 0 auto;
     width: 80%;
+  }
+
+  main ul, main div, main p:last-child {
+    margin-bottom: 50px;
+  }
+
+  main h3:last-of-type {
+    margin-top: 50px;
   }
 }
